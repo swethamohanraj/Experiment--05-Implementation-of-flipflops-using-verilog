@@ -110,16 +110,15 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 4.end the program.
 
-
-
+### SR FLIPFLOP
 ### PROGRAM 
-/*
+```
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: K.M.Swetha
 RegisterNumber:  212221240055
-*/
 
-```module sr (q,qbar,s,r,clk);
+module sr (q,qbar,s,r,clk);
 input s,r,clk;
 output q,qbar;
 wire nand1_out;
@@ -144,14 +143,12 @@ endmodule
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 ![image](https://user-images.githubusercontent.com/94228215/168053910-af2c859a-6642-4dbf-a81d-50139d56620c.png)
 
-
+### JK FLIPFLOP
 ### PROGRAM 2
-/*
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: K.M.Swetha
 RegisterNumber:  212221240055
-*/
-```
 
 module jk(q,qbar,k,j,clk);
 input j,k,clk;
@@ -170,14 +167,13 @@ endmodule
 ### TIMING DIGRAMS FOR FLIP FLOPS
 ![image](https://user-images.githubusercontent.com/94228215/168054173-5089daa8-281f-467d-a550-86c07e86097d.png)
 
+### D FLIPFLOP
 ### PROGRAM 3
-/*
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: K.M.Swetha
 RegisterNumber:  212221240055
-*/
 
-```
 module d(q,qbar,d1,clk);
 input d1,clk;
 output q,qbar;
@@ -197,13 +193,13 @@ endmodule
 
 ![image](https://user-images.githubusercontent.com/94228215/168054369-aa45bcf1-e5c2-4a6e-b201-ef4fe6be22bc.png)
 
+### T FLIPFLOP
 ### PROGRAM 4
-/*
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: K.M.Swetha
 RegisterNumber:  212221240055
-*/
-```
+
 module tff(t,qbar,q,clk);
 input t,clk;
 output q,qbar;
